@@ -1,0 +1,16 @@
+.para {
+  color: aliceblue;
+  font-size: 13px;
+}
+.borderbg {
+  border-style: solid;
+  border-width: 3px;
+  border-color: darkgoldenrod;
+  margin-top: 3px;
+  margin: 5px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}

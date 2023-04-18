@@ -1,0 +1,16 @@
+.logo {
+  height: 120px;
+  width: 80px;
+}
+.name {
+  color: aliceblue;
+  font-size: 20px;
+}
+.result {
+  color: aliceblue;
+  font-size: 17px;
+}
+.status {
+  color: aliceblue;
+  font-size: 14px;
+}

@@ -1,0 +1,7 @@
+.bg {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png);
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+}

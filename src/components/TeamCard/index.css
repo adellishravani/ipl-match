@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: bisque;
+  margin: 8px;
+  width: 50%;
+}
+.image {
+  height: 50px;
+  width: 50px;
+}
+.para {
+  color: aliceblue;
+  font-size: 15px;
+}

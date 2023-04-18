@@ -1,0 +1,16 @@
+.bg {
+  background-image: linear-gradient(
+    to bottom,
+    #d91c1f,
+    #a4261d,
+    #f26d22,
+    #da237b,
+    #0f172a
+  );
+  padding: 9px;
+}
+
+.image {
+  height: 30%;
+  width: 80%;
+}
