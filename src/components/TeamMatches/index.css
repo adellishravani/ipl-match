@@ -12,5 +12,19 @@
 
 .image {
   height: 30%;
-  width: 80%;
+  width: 50%;
+}
+.ulist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-image: linear-gradient(
+    to bottom,
+    #d91c1f,
+    #a4261d,
+    #f26d22,
+    #da237b,
+    #0f172a
+  );
 }

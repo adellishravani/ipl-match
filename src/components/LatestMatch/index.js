@@ -15,11 +15,11 @@ const LatestMatch = props => {
     matchStatus,
   } = latesMatchDetails
   return (
-    <div>
+    <div className="latest">
       <p className="para">Latest Matches</p>
       <div className="borderbg">
         <div>
-          <h1>{umpires}</h1>
+          <p className="heading">{umpires}</p>
           <p>{date}</p>
           <p>{venue}</p>
           <p>{competingTeam}</p>
@@ -33,16 +33,16 @@ const LatestMatch = props => {
         />
 
         <div>
-          <h1>First Innings</h1>
-          <p>{firstInnings}</p>
+          <h1 className="heading">First Innings</h1>
+          <p className="para">{firstInnings}</p>
 
-          <h1>Second Innings</h1>
+          <h1 className="heading">Second Innings</h1>
           <p>{secondInnings}</p>
 
-          <h1>Man Of The Match</h1>
+          <h1 className="heading">Man Of The Match</h1>
           <p>{manOfTheMatch}</p>
 
-          <h1>umpires</h1>
+          <h1 className="heading">umpires</h1>
           <p>{umpires}</p>
           <p>{result}</p>
         </div>

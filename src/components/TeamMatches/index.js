@@ -20,7 +20,7 @@ class TeamMatches extends Component {
     const {params} = match
     const {id} = params
 
-    const response = await fetch(`https://apis.ccbp.in/ipl/:${id}`)
+    const response = await fetch(`https://apis.ccbp.in/ipl/${id}`)
     const data = await response.json()
 
     const updatedData = {
@@ -56,21 +56,28 @@ class TeamMatches extends Component {
     this.setState({teamMatchesData: updatedData, showing: false})
   }
 
+  loader = () => {
+    ;<div testid="loader">
+      <Loader type="Oval" color="#ffffff" height={50} width={50} />
+    </div>
+  }
+
   render() {
     const {teamMatchesData, showing} = this.state
     const {teamBannerUrl} = teamMatchesData
     return (
-      <div className="bg">
+      <div testid="loader">
         {showing ? (
-          <Loader type="Oval" color="#ffffff" height={50} width={50} />
+          this.loader()
         ) : (
-          <div>
+          <div className="bg">
             <img src={teamBannerUrl} alt="team banner" className="image" />
             <LatestMatch
               latesMatchDetails={teamMatchesData.latestMatchDetails}
               key={teamMatchesData.latestMatchDetails.id}
             />
-            <ul>
+            <br />
+            <ul className="ulist">
               {teamMatchesData.recentMatches.map(each => (
                 <MatchCard matchDetails={each} key={each.id} />
               ))}

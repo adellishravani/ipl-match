@@ -14,3 +14,16 @@
   justify-content: space-evenly;
   align-items: center;
 }
+.latest {
+  width: 100%;
+}
+.heading {
+  font-size: 15px;
+}
+.para {
+  font-size: 12px;
+}
+.imglogo {
+  height: 150px;
+  width: 150px;
+}

@@ -14,3 +14,9 @@
   color: aliceblue;
   font-size: 14px;
 }
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

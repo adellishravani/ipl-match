@@ -5,7 +5,7 @@ const MatchCard = props => {
   const {result, competingTeam, competingTeamLogo, matchStatus} = matchDetails
 
   return (
-    <li>
+    <li className="list">
       <img
         src={competingTeamLogo}
         alt={`competing team ${competingTeam}`}
